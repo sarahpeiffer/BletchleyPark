@@ -1,40 +1,52 @@
 body {
     font-family: "Optima,Segoe,Segoe UI,Candara,Calibri,Arial,sans-serif";
-    background-color: #F8F7FF;
+    /* background-color: #F8F7FF; */
+    /* background-color: #204B57; */
 }
 
 #header {
     margin-left: auto;
     margin-right: auto;
     padding-top: 20px;
-    margin-bottom: 30px;
+    margin-bottom: 40px;
     width: 100%;
     text-align: center;
-    color: #031D44
+    /* color: #031D44 */
+    color: #1d2951;
 }
 
 #columns {
-    margin-left: 4%;
+    /* margin-left: 3%; */
+}
+
+#initial-column {
+    width: 38%;
+    float: left;
+
 }
 
 .column {
-    width: 30%;
+    width: 28%;
     margin-left: 1%;
     margin-right: 1%;
     border-radius: 5px;
     float: left;
     text-align: center;
-    padding: 5px;
-    font-size: 18px;
+    padding: 6px;
+    padding-top: 15px;
+    font-size: 20px;
     height: 650px;
 }
 #about-us {
     background-color: #7a8ca7;
+    /* background-color: #EB6424; */
+    /* background: linear-gradient(to bottom left,  #7a8ca7 0%, #bdc9db 100%); */
     color:  #031D44;
 }
 
 #solutions {
     background-color: #435979;
+    /* background: linear-gradient(to bottom left,  #435979 0%, #7a8ca7 100%); */
 }
 
 .solutions-card {
@@ -45,11 +57,15 @@ body {
 
 #meet-team {
     background-color: #031D44
+    /* background: linear-gradient(to bottom left, #031D44 0%,  #435979 100%); */
 }
 
 .column-image {
-    width: 90%;
-    height: auto;
+    /* width: 100%; */
+    /* height: auto; */
+    height: 400px;
+    max-width: 100%;
+    overflow: hidden;
 }
 
 a {
@@ -59,6 +75,16 @@ a {
 a:hover{
     text-decoration: none;
     color:  #629165;
+}
+
+#artist-statement {
+    background-color: #1d2951;
+    color: white;
+    padding: 10px;
+    border-radius: 6px;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 #meet {
