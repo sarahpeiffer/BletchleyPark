@@ -25,6 +25,10 @@ body {
 
 }
 
+.inline {
+    display: inline;
+}
+
 .column {
     width: 28%;
     margin-left: 1%;
@@ -76,7 +80,17 @@ a:hover{
     text-decoration: none;
     color:  #629165;
 }
-
+#buttons {
+    width: 90%;
+    margin-right: auto;
+    margin-left:auto
+}
+.button {
+    /* background-color:  #031D44; */
+    background-color: #F36B1C;
+    color: white;
+    padding: 4px;
+}
 #artist-statement {
     background-color: #1d2951;
     color: white;
