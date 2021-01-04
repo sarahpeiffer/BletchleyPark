@@ -15,15 +15,15 @@ body {
     color: #1d2951;
 }
 
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Quicksand';
+}
+
 #columns {
     /* margin-left: 3%; */
 }
 
-#initial-column {
-    width: 38%;
-    float: left;
-
-}
 
 .inline {
     display: inline;
@@ -33,35 +33,44 @@ body {
     width: 28%;
     margin-left: 1%;
     margin-right: 1%;
-    border-radius: 5px;
+    border-radius: 10px;
     float: left;
-    text-align: center;
-    padding: 6px;
+    text-align: left;
+    padding: 2%;
     padding-top: 15px;
     font-size: 20px;
     height: 650px;
 }
+#initial-column {
+    margin-top: 40px;
+    width: 38%;
+    float: left;
+    padding: 0px;
+
+}
+
 #about-us {
-    background-color: #7a8ca7;
+    /* background-color: #7a8ca7; */
+    background-color: #EDF6FF;
     /* background-color: #EB6424; */
     /* background: linear-gradient(to bottom left,  #7a8ca7 0%, #bdc9db 100%); */
     color:  #031D44;
 }
 
 #solutions {
-    background-color: #435979;
+    /* background-color: #435979; */
+    background-color: #EDF6FF;
     /* background: linear-gradient(to bottom left,  #435979 0%, #7a8ca7 100%); */
 }
 
 .solutions-card {
     border-radius: 4px;
     margin: 5%;
-    background-color: #F8F7FF;
+    background-color: #6DAFFE;
 }
 
 #meet-team {
     background-color: #031D44
-    /* background: linear-gradient(to bottom left, #031D44 0%,  #435979 100%); */
 }
 
 .column-image {
@@ -73,26 +82,29 @@ body {
 }
 
 a {
-    color: #031D44;
+    font-family: 'Quicksand';
+    background-color:  #6DAFFE;
+    font-size: 18px;
+    border-radius: 10px;
+    color: white;
+    padding: 5px;
 }
 
 a:hover{
     text-decoration: none;
-    color:  #629165;
+    background-color: #00A36C;
+    color: white;
 }
 #buttons {
-    width: 90%;
+    width: 85%;
+    margin-top: 20px;
     margin-right: auto;
-    margin-left:auto
+    margin-left:auto;
+    align-items: center;
 }
-.button {
-    /* background-color:  #031D44; */
-    background-color: #F36B1C;
-    color: white;
-    padding: 4px;
-}
+
 #artist-statement {
-    background-color: #1d2951;
+    background-color: #00A36C;
     color: white;
     padding: 10px;
     border-radius: 6px;
@@ -101,10 +113,27 @@ a:hover{
     margin-right: auto;
 }
 
+#artist-statement:hover {
+    background-color:  #6DAFFE;
+}
+
+#learn-tech {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+}
+
 #meet {
     background-color: #F8F7FF;
     border-radius: 4px;
     width: 50%;
     margin-left: auto;
     margin-right: auto;
+}
+
+hr {
+    border-top: 3px solid #437FC7;
+    width: 60%;
+    margin-left: 0px;
 }
