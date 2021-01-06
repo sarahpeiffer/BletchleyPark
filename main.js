@@ -1,4 +1,4 @@
-const imageArray = ["intro", "about_us", "team", "colossus"];
+const imageArray = ["intro", "about_us", "team", "colossus", "work"];
 let index = 0;
 window.onload = function () {
     setInterval(function () { switchImage() }, 5000) //6 seconds

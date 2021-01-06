@@ -33,7 +33,7 @@ h1, h2, h3, h4, h5, h6 {
     font-size: 17px;
     margin-left: auto;
     margin-right: auto;
-    margin-bottom: 60px;
+    padding-bottom: 60px;
 }
 
 
@@ -92,7 +92,10 @@ h1, h2, h3, h4, h5, h6 {
     margin-top: 6%;
     padding: 2%;
     text-align: center;
-    background-color: #6DAFFE;
+    background-color: #EDF6FF;
+    color:  #031D44;
+    border-style: solid;
+    border-color: #00A36C;
 }
 
 #positions {
@@ -129,7 +132,28 @@ h1, h2, h3, h4, h5, h6 {
     padding: 8px;
     margin: 2%;
     width: 46%;
+    min-height: 160px;
     float: left;
+}
+
+
+#quotes {
+    width: 48%;
+    margin-right: 2%;
+    float: left;
+}
+
+#culture-image-div {
+    width: 48%;
+    margin-left: 2%;
+    float: left;
+    margin-top: 10px;
+}
+
+#culture-image {
+    width: 100%;
+    height: auto;
+    margin-left: 0;
 }
 
 .culture {
@@ -142,7 +166,6 @@ h1, h2, h3, h4, h5, h6 {
     padding: 8px;
     margin-top: 10px;
     margin-bottom: 10px;
-    width: 50%;
     font-family: 'Quicksand';
 }
 
@@ -184,7 +207,7 @@ a:hover{
     color: white;
 }
 #buttons {
-    width: 85%;
+    width: 75%;
     margin-top: 20px;
     margin-right: auto;
     margin-left:auto;
@@ -221,4 +244,8 @@ hr {
     border-top: 3px solid #437FC7;
     width: 60%;
     margin-left: 0px;
+}
+
+.break {
+    height: 30px;
 }
