@@ -20,8 +20,20 @@ h1, h2, h3, h4, h5, h6 {
     font-family: 'Quicksand';
 }
 
+.bletchley {
+    font-family: 'Quicksand';
+}
+
 #columns {
     /* margin-left: 3%; */
+}
+
+.page-content {
+    width: 85%;
+    font-size: 17px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 60px;
 }
 
 
@@ -42,31 +54,96 @@ h1, h2, h3, h4, h5, h6 {
     height: 650px;
 }
 #initial-column {
-    margin-top: 40px;
+    margin-top: 80px;
+    height: 600px;
     width: 38%;
     float: left;
     padding: 0px;
+    align-items: center;
+}
 
+#artist-statement-div {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    align-items: center;
+    text-align: center;
 }
 
 #about-us {
-    /* background-color: #7a8ca7; */
     background-color: #EDF6FF;
-    /* background-color: #EB6424; */
-    /* background: linear-gradient(to bottom left,  #7a8ca7 0%, #bdc9db 100%); */
     color:  #031D44;
+    border-style: solid;
+    border-width: thin;
+    border-color:  #437FC7;
 }
 
 #solutions {
-    /* background-color: #435979; */
     background-color: #EDF6FF;
-    /* background: linear-gradient(to bottom left,  #435979 0%, #7a8ca7 100%); */
+    border-style: solid;
+    border-width: thin;
+    border-color: #437FC7;
 }
 
 .solutions-card {
-    border-radius: 4px;
+    border-radius: 6px;
     margin: 5%;
+    margin-top: 6%;
+    padding: 2%;
+    text-align: center;
     background-color: #6DAFFE;
+}
+
+#positions {
+    margin-top: 30px;
+}
+
+#diversity {
+    margin-top: 30px;
+}
+
+.initiative {
+    background-color: #EDF6FF;
+    color:  #031D44;
+    border-style: solid;
+    border-width: thin;
+    border-color: #00A36C;
+    border-radius: 6px;
+    padding: 8px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-family: 'Quicksand';
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.employee {
+    background-color: #EDF6FF;
+    color:  #031D44;
+    border-style: solid;
+    border-width: thin;
+    border-color: #00A36C;
+    border-radius: 6px;
+    padding: 8px;
+    margin: 2%;
+    width: 46%;
+    float: left;
+}
+
+.culture {
+    background-color: #EDF6FF;
+    color:  #031D44;
+    border-style: solid;
+    border-width: thin;
+    border-color: #6DAFFE;
+    border-radius: 6px;
+    padding: 8px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 50%;
+    font-family: 'Quicksand';
 }
 
 #meet-team {
@@ -74,11 +151,22 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .column-image {
-    /* width: 100%; */
-    /* height: auto; */
     height: 400px;
     max-width: 100%;
     overflow: hidden;
+}
+
+#team-image {
+    width: 50%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 30px;
+}
+
+#tech-image {
+    width: 100%;
+    height: auto;
 }
 
 a {
@@ -108,9 +196,6 @@ a:hover{
     color: white;
     padding: 10px;
     border-radius: 6px;
-    width: 80%;
-    margin-left: auto;
-    margin-right: auto;
 }
 
 #artist-statement:hover {
@@ -118,7 +203,7 @@ a:hover{
 }
 
 #learn-tech {
-    width: 80%;
+    width: 73%;
     margin-left: auto;
     margin-right: auto;
     margin-top: 20px;
