@@ -1,7 +1,5 @@
 body {
     font-family: "Optima,Segoe,Segoe UI,Candara,Calibri,Arial,sans-serif";
-    /* background-color: #F8F7FF; */
-    /* background-color: #204B57; */
 }
 
 #header {
@@ -11,7 +9,6 @@ body {
     margin-bottom: 40px;
     width: 100%;
     text-align: center;
-    /* color: #031D44 */
     color: #1d2951;
 }
 
@@ -207,6 +204,35 @@ h1, h2, h3, h4, h5, h6 {
 #tech-image {
     width: 100%;
     height: auto;
+}
+
+#bombe-container {
+    position: relative; 
+    z-index: 1;
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+    height: 800px;
+}
+
+#bombe-image {
+    position: absolute; 
+    width: 100%;
+    z-index: 2;
+}
+
+#bombe-overlay {
+    position: relative; 
+    top: 50%;
+    left: 45%;
+    width: 50%; 
+    background-color: #EDF6FF;
+    color:  #031D44;
+    border-style: solid;
+    border-color: #6DAFFE;
+    border-radius: 6px;
+    padding: 8px;
+    z-index: 3;
 }
 
 a {
